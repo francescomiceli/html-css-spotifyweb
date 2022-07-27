@@ -25,11 +25,27 @@ hr{border:none; border-bottom: 1px solid #ddd}
 /* HEADER */
 
 .header{
-    width: 90vw;
+    width: 90%;
     height: 100px;
-    background-color: red;
+    background-color: #080B12;
     position: fixed;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+
+    .header a {
+        color: gray;
+        margin-right: 75px;
+        border: 1px solid gray;
+        padding: 15px;
+        border-radius: 20px;
+        }
+
+    .header a:hover{
+        color: white;
+        border: 1px solid white;
+    }
 
 /* SIDEBAR */
 
@@ -48,7 +64,16 @@ hr{border:none; border-bottom: 1px solid #ddd}
     background-color: black;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    color: gray;
+    }
+
+.sidebar a {
+    color: gray;
+}
+
+.sidebar a:hover{
+    color: white;
+    
 }
 
 main{
