@@ -8,22 +8,48 @@ img{width: 100%;}
 a{text-decoration: none;}
 hr{border:none; border-bottom: 1px solid #ddd}
 
+body{
+    background-color: blue;
+}
+
+
+
+
+/* ! HEADER */
+.content{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    position: fixed;
+}
 
 /* ! ASIDE */
 
-aside{
+.sidebar{
     display: flex;
     width: 20%;
     height: 100vh;
     background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 10;
 }
 
-/* ! HEADER */
-    .content {
-       
-        background-color: red;
-    }
 /* ! MAIN */
+    main{
+        
+        border-color: blue;
+    }
 
 /* ! FOOTER */
+
+    footer{
+        background-color: orange;
+        width: 100%;
+        height: 100px;
+        position: fixed;
+        margin-top: 0px;
+        bottom: 0px;
+        z-index: 10;
+    }
 
