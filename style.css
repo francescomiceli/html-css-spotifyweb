@@ -7,7 +7,7 @@ ol,ul{list-style-type: none;}
 a{text-decoration: none;}
 hr{width: 100%; margin-left: 0px;}
 
-/* HELPERS */
+/* ! CONTAINER */
 
 .flex.container{
     display: flex;
@@ -23,29 +23,58 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #sidebar{
-    
     width: 220px;
-    background-color: yellow;
+    background-color: black;
     display: flex;
     flex-direction: column;
     }
 
+/* SECTIONS */
+
+/* SIDEBAR */
+
+#logo{
+    display: flex;
+    height: 106px;
+    justify-content: center;
+}
+
+#sidebar #logo img{
+    width: 70%;
+}
+
+#menu-side{
+    border: 1px solid red;
+    height: 100%;
+    color: #717171;
+}
+
+#menu-side li{
+    margin-top: 5px;
+}
+
+#menu-footer{
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+    color: #717171;
+}
+
+/* HEADER */
+
 .header{
     height: 10vh;
     width: 100%;
-    background-color: red;
+    background-color: #080B12;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
     }
 
- .header a{
-    color: white;
+.header a{
+    color: #717171;
     margin-right: 20px;
  }
-
-
 
 .main{
     height: 80vh;
