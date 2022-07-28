@@ -23,13 +23,14 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #sidebar{
-    width: 220px;
+    width: 200px;
     background-color: black;
     display: flex;
     flex-direction: column;
     }
 
-/* SECTIONS */
+/************ FINE CONTAINER ****************/
+
 
 /* SIDEBAR */
 
@@ -81,9 +82,10 @@ hr{width: 100%; margin-left: 0px;}
 /* ! MENU-FOOTER */
 #menu-footer{
     width: 90%;
-    margin: 5px auto;
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
+    font-size: 13px;
 }
 
 #menu-footer a{
@@ -102,6 +104,8 @@ hr{width: 100%; margin-left: 0px;}
     margin: 0px;
 }
 
+/************ FINE SIDEBAR ****************/
+
 /* HEADER */
 
 .header{
@@ -119,6 +123,7 @@ hr{width: 100%; margin-left: 0px;}
     padding: 10px;
     border: 1px solid gray;
     border-radius: 20px;
+    font-size: 13px;
  }
 
  .header a:hover{
@@ -126,6 +131,8 @@ hr{width: 100%; margin-left: 0px;}
     border: 1px solid white;
 
  }
+
+ /************ FINE HEADER ****************/
 
 /* MAIN */
 
@@ -142,10 +149,58 @@ hr{width: 100%; margin-left: 0px;}
     border: 1px solid red;
     display: flex;
     color: #797C80;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
+#main-header li{
+    display: inline-block;
+    margin: 0 10px;
+}
 
+#main-header a{
+    color: #797C80;
+}
 
+#main-header a:hover{
+    color: white;
+    border-bottom: 1px solid greenyellow;
+}
+
+#main-container{
+    color: white;
+    height: 87%;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+#album-container{
+    border: 1px solid red;
+    height: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.album-container{
+    border: 1px solid red;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.album-container img{
+    width: 100%;
+}
+
+/************ FINE MAIN ****************/
 
 
 /* FOOTER */
@@ -154,7 +209,6 @@ hr{width: 100%; margin-left: 0px;}
     height: 10vh;
     width: 100%;
     background-color: green;
-    
-    }
+}
 
    
