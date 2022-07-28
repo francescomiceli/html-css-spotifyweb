@@ -208,10 +208,44 @@ hr{width: 100%; margin-left: 0px;}
 
 /* FOOTER */
 
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
     height: 10vh;
     width: 100%;
-    background-color: green;
+    background-color: #282828;
+    display: flex;
+    border: 1px solid greenyellow;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#song-title, #player, #volume{
+    display: flex;
+    border: 1px solid red;
+}
+
+#song-title p{
+    margin: 0px;
+    font-size: 9px;
+    padding: 5px;
+}
+
+#song-title img{
+    width: 50%;
+}
+
+#icons{
+    display: flex;
+    flex-direction: row;
+}
+
+#icons i{
+    margin: 15px;
 }
 
    
