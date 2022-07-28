@@ -23,7 +23,7 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #sidebar{
-    width: 200px;
+    width: 350px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -186,17 +186,16 @@ hr{width: 100%; margin-left: 0px;}
 
 .row{
     display: flex;
-    flex-direction: row;
+    
 }
 
-.album-container{
+.album-box{
     border: 1px solid red;
-    width: 180px;
-    height: 180px;
+    width: calc(100% / 6);
     margin: 10px;
 }
 
-.album-container img{
+.album-box img{
     width: 100%;
 }
 
