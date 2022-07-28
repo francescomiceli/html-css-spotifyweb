@@ -33,6 +33,8 @@ hr{width: 100%; margin-left: 0px;}
 
 /* SIDEBAR */
 
+/* ! LOGO */
+
 #logo{
     display: flex;
     height: 106px;
@@ -43,21 +45,61 @@ hr{width: 100%; margin-left: 0px;}
     width: 70%;
 }
 
+/* ! MENU-SIDE */
 #menu-side{
-    border: 1px solid red;
     height: 100%;
     color: #717171;
 }
 
 #menu-side li{
     margin-top: 5px;
+    color: #717171;
 }
 
+#menu-side ul{
+    margin-left: -25px;
+}
+
+#menu-side h3 {
+    color: white;
+}
+
+.fa-plus{
+    background-color: gray;
+    padding: 5px;
+}
+
+#menu-side li:hover{
+    color: white;
+}
+
+#menu-side img{
+    width: 20px;
+    color: #717171;
+    }
+
+/* ! MENU-FOOTER */
 #menu-footer{
     width: 90%;
-    border: 1px solid red;
-    margin: 0 auto;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-footer a{
     color: #717171;
+}
+
+#menu-footer a:hover{
+    color: white;
+}
+
+#menu-footer img{
+    width: 15px;
+}
+
+#menu-footer p{
+    margin: 0px;
 }
 
 /* HEADER */
@@ -74,13 +116,39 @@ hr{width: 100%; margin-left: 0px;}
 .header a{
     color: #717171;
     margin-right: 20px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 20px;
  }
+
+ .header a:hover{
+    color: white;
+    border: 1px solid white;
+
+ }
+
+/* MAIN */
 
 .main{
     height: 80vh;
     width: 100%;
-    background-color: blue;
-     }
+    background-color: #141922;
+    border: 1px solid red;
+    }
+
+#main-header{
+    width: 100%;
+    height: 80px;
+    border: 1px solid red;
+    display: flex;
+    color: #797C80;
+}
+
+
+
+
+
+/* FOOTER */
 
 .footer{
     height: 10vh;
