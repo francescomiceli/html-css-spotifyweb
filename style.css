@@ -145,7 +145,7 @@ hr{width: 100%; margin-left: 0px;}
 
 #main-header{
     width: 100%;
-    height: 80px;
+    height: 50px;
    
     display: flex;
     color: #797C80;
@@ -180,23 +180,27 @@ hr{width: 100%; margin-left: 0px;}
     overflow: scroll;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
 }
 
 .row{
     display: flex;
-    
+}
+
+.radius{
+    border-radius: 50%;
 }
 
 .album-box{
     border: 1px solid red;
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 20px);
     margin: 10px;
+    display: block;
+    text-align: center;
 }
 
 .album-box img{
     width: 100%;
+    display: block;
 }
 
 /************ FINE MAIN ****************/
