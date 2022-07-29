@@ -185,13 +185,16 @@ hr{width: 100%; margin-left: 0px;}
     flex-direction: column;
 }
 
-#album-container .row .album-box:nth-child(3) img{
+.cover-container{
     position: relative;
-    opacity: 30%;
 }
 
-#album-container .row .album-box:nth-child(3) .icon {
+.cover-container .icon {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
     
 }
 
@@ -225,6 +228,8 @@ hr{width: 100%; margin-left: 0px;}
 .column{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .footer{
@@ -270,8 +275,8 @@ hr{width: 100%; margin-left: 0px;}
     color: white;
     display: flex;
     flex-direction: column;
-    width: 40%;
     align-items: center;
+    width: 400px;
 }
 
 
@@ -285,6 +290,7 @@ hr{width: 100%; margin-left: 0px;}
     font-size: 10px;
     padding: 0px 10px;
     border: 1px solid red;
+    width: 100%;
     }
 
 .progress-bar p{
