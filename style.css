@@ -167,7 +167,6 @@ hr{width: 100%; margin-left: 0px;}
 
 #main-header a:hover{
     color: white;
-    border-bottom: 1px solid greenyellow;
 }
 
 #main-container{
@@ -208,7 +207,6 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 .album-box{
-    
     width: calc(100% / 6 - 20px);
     margin: 10px;
     display: block;
@@ -230,6 +228,7 @@ hr{width: 100%; margin-left: 0px;}
     flex-direction: column;
     align-items: center;
     width: 100%;
+    position: relative;
 }
 
 .footer{
@@ -237,7 +236,6 @@ hr{width: 100%; margin-left: 0px;}
     width: 100%;
     background-color: #282828;
     display: flex;
-    border: 1px solid greenyellow;
     color: #797C80;
     justify-content: space-between;
 }
@@ -271,6 +269,10 @@ hr{width: 100%; margin-left: 0px;}
     margin: 10px;
 }
 
+i:hover{
+    color: #fff;
+}
+
 #player{
     color: white;
     display: flex;
@@ -289,7 +291,6 @@ hr{width: 100%; margin-left: 0px;}
     align-items: center;
     font-size: 10px;
     padding: 0px 10px;
-    border: 1px solid red;
     width: 100%;
     }
 
@@ -304,6 +305,15 @@ hr{width: 100%; margin-left: 0px;}
     border-radius: 10px;
 }
 
+.bar--white{
+    background-color: #fff;
+    width: 10%;
+    height: 2px;
+    position: absolute;
+    left: 50px;
+    
+}
+
 #volume{
    display: flex; 
    align-items: center;
@@ -315,10 +325,7 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 .bar-volume{
-    background-color: white;
-    width: 10%;
-    height: 10px;
-    border-radius: 10px;
+    
 }
 
 
