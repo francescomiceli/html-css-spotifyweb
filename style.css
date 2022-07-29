@@ -12,6 +12,7 @@ hr{width: 100%; margin-left: 0px;}
 .flex.container{
     display: flex;
     height: 90vh;
+    width: 1200px;
     width: 100%;
     }
 
@@ -180,10 +181,12 @@ hr{width: 100%; margin-left: 0px;}
     overflow: scroll;
     display: flex;
     flex-direction: column;
+    
 }
 
 .row{
     display: flex;
+    
 }
 
 .radius{
@@ -261,4 +264,60 @@ hr{width: 100%; margin-left: 0px;}
     margin: 10px 30px;
 }
 
-   
+
+/* ! Hide or Show */
+.logo-small-hidden{
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+/* Screen Medium */
+
+@media (max-width: 1000px) {
+
+    .row {
+        flex-wrap: wrap;
+    }
+  
+    .album-box {
+        width: calc(100% / 4 - 20px);
+    }
+
+    #main-header ul{
+        width: 90%;
+        text-align: center;
+    }
+
+}   
+
+/* Screen Small */
+
+@media (max-width: 768px) {
+
+    .album-box {
+        width: calc(100% / 2 - 20px);
+    }
+} 
+
+@media (max-width: 480px) {
+
+    .album-box {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .xs-hidden {
+        display: none;
+    }
+
+    .xs-show {
+        display: initial;
+      }
+
+    #sidebar #logo img, #menu-side img {
+        max-width: 40px;
+        margin-top: 10px;
+    }
+
+    
+} 

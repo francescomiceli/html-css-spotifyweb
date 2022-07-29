@@ -20,13 +20,14 @@
     <!-- SIDEBAR -->
         <div id="sidebar">
             <div id="logo">
-                <img src="img/logo.svg" alt="Spotify">
+                <img class="xs-hidden" src="img/logo.svg" alt="Spotify">
+                <img class="xs-show logo-small-hidden" src="img/logo-small.svg" alt="Spotify">
             </div>
 
             <div id="menu-side">
                 <nav>
-                    <ul>
-                        <a href="#"><li><img src="img/home.svg" alt=""> Home</li></a>
+                    <ul class="xs-hidden">
+                        <a href="#"><li><img class="x-show" src="img/home.svg" alt=""> Home</li></a>
                         <a href="#"><li><img src="img/search.svg" alt=""> Cerca</li></a>
                         <a href="#"><li><img src="img/libreria.svg" alt=""> Playlist</li></a>
                         <li><h3><i class="fa-solid fa-plus"></i> Playlist</h3></li>
@@ -49,13 +50,15 @@
         </div>
     
         <!-- APP CONTAINER -->
+
+        <!-- HEADER -->    
     <div id="app-container">
         <div class="header">
             <a href="">EFFETTUA L'UPGRADE</a>
         </div>
 
 
-        <!-- MAIN -->
+        <!-- MAIN HEADER -->
         <div class="main">
             <div id="main-header">
                 <nav>
@@ -165,7 +168,15 @@
         </div>
 
 
-        <div id="volume"></div>
+        <!-- <div id="volume"> -->
+            <div id="song-title">
+                <img src="img/sinister.jpeg" alt="title-song">
+                <div class="column">
+                    <p><strong>Sinister</strong></p>
+                    <p>Brano nome</p>
+                </div>
+
+        <!-- </div> -->
 
     </div>
         
