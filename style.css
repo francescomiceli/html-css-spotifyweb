@@ -219,14 +219,17 @@ hr{width: 100%; margin-left: 0px;}
     background-color: #282828;
     display: flex;
     border: 1px solid greenyellow;
-    color: white;
-    padding: 10px;
+    color: #797C80;
     justify-content: space-between;
 }
 
 #song-title, #player, #volume{
     display: flex;
     border: 1px solid red;
+}
+
+#song-title{
+    padding:5px
 }
 
 #song-title p{
@@ -236,16 +239,26 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #song-title img{
-    width: 50%;
+    width: 30%;
 }
 
-#icons{
+.icons{
     display: flex;
     flex-direction: row;
 }
 
-#icons i{
+.icons i{
     margin: 15px;
+}
+
+#player{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+#player .icons i{
+    margin: 10px 30px;
 }
 
    
