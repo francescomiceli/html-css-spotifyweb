@@ -177,7 +177,6 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #album-container{
-    
     height: 100%;
     overflow-y: scroll;
     display: flex;
@@ -186,6 +185,14 @@ hr{width: 100%; margin-left: 0px;}
 
 .cover-container{
     position: relative;
+    }
+
+.album-box:hover img{
+    opacity: 50%;
+}
+
+.album-box:hover .icon{
+    opacity: 1;
 }
 
 .cover-container .icon {
@@ -194,8 +201,8 @@ hr{width: 100%; margin-left: 0px;}
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 50px;
-    
-}
+    opacity: 0;
+    }
 
 .row{
     display: flex;
