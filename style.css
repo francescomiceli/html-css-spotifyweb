@@ -166,6 +166,10 @@ hr{width: 100%; margin-left: 0px;}
     color: #797C80;
 }
 
+.white{
+    color: white;
+}
+
 #main-header a:hover{
     color: white;
 }
@@ -253,7 +257,6 @@ hr{width: 100%; margin-left: 0px;}
 
 #song-title, #player, #volume{
     display: flex;
-    border: 1px solid red;
 }
 
 #song-title{
@@ -348,13 +351,8 @@ i:hover{
 }
 
 #volume i{
-    padding: 5px;
+    padding: 15px;
 }
-
-.bar-volume{
-    
-}
-
 
 /* ! Hide or Show */
 .logo-small-hidden{
