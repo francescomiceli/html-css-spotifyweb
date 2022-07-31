@@ -63,7 +63,7 @@ hr{width: 100%; margin-left: 0px;}
 }
 
 #menu-side li{
-    padding: 4px 0px;
+    padding: 4px 10px;
 }
 
 #menu-side h3 {
@@ -179,6 +179,12 @@ hr{width: 100%; margin-left: 0px;}
     border-bottom: 2px solid yellowgreen;
     width: 30%;
  }
+
+ .green-bar-left{
+    border-left: 3px solid yellowgreen;
+ }
+
+
 
 
 #main-header a:hover{
